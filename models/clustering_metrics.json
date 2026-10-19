@@ -1,0 +1,143 @@
+{
+  "algorithm": "K-Means",
+  "n_clusters": 4,
+  "random_state": 42,
+  "n_init": 10,
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "silhouette_score": 0.25526916389002857,
+  "pca_explained_variance_ratio": [
+    0.2758883143020736,
+    0.184844310953646
+  ],
+  "cluster_sizes": {
+    "0": 797,
+    "1": 618,
+    "2": 585,
+    "3": 200
+  },
+  "cluster_profiles_original_units": {
+    "0": {
+      "N": 26.09,
+      "P": 57.52,
+      "K": 28.64,
+      "temperature": 26.04,
+      "humidity": 50.33,
+      "ph": 6.54,
+      "rainfall": 79.17
+    },
+    "1": {
+      "N": 47.73,
+      "P": 32.59,
+      "K": 33.37,
+      "temperature": 25.14,
+      "humidity": 85.6,
+      "ph": 6.55,
+      "rainfall": 165.35
+    },
+    "2": {
+      "N": 96.63,
+      "P": 42.29,
+      "K": 38.42,
+      "temperature": 26.35,
+      "humidity": 80.04,
+      "ph": 6.46,
+      "rainfall": 75.41
+    },
+    "3": {
+      "N": 21.99,
+      "P": 133.38,
+      "K": 200.0,
+      "temperature": 23.24,
+      "humidity": 87.1,
+      "ph": 5.98,
+      "rainfall": 91.13
+    }
+  },
+  "top_crops_per_cluster": {
+    "0": [
+      {
+        "crop": "chickpea",
+        "count": 100
+      },
+      {
+        "crop": "kidneybeans",
+        "count": 100
+      },
+      {
+        "crop": "mothbeans",
+        "count": 100
+      },
+      {
+        "crop": "blackgram",
+        "count": 100
+      },
+      {
+        "crop": "lentil",
+        "count": 100
+      }
+    ],
+    "1": [
+      {
+        "crop": "rice",
+        "count": 100
+      },
+      {
+        "crop": "pomegranate",
+        "count": 100
+      },
+      {
+        "crop": "orange",
+        "count": 100
+      },
+      {
+        "crop": "coconut",
+        "count": 100
+      },
+      {
+        "crop": "jute",
+        "count": 99
+      }
+    ],
+    "2": [
+      {
+        "crop": "banana",
+        "count": 100
+      },
+      {
+        "crop": "watermelon",
+        "count": 100
+      },
+      {
+        "crop": "muskmelon",
+        "count": 100
+      },
+      {
+        "crop": "cotton",
+        "count": 100
+      },
+      {
+        "crop": "maize",
+        "count": 82
+      }
+    ],
+    "3": [
+      {
+        "crop": "grapes",
+        "count": 100
+      },
+      {
+        "crop": "apple",
+        "count": 100
+      }
+    ]
+  },
+  "disclaimer": "These clusters represent statistical data-driven patterns across the 7 environmental and soil features, not agronomically verified suitability categories."
+}

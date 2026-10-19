@@ -1,0 +1,53 @@
+# ==============================================================================
+# Smart Crop Recommendation System - .gitignore
+# ==============================================================================
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Local Environment Variables & Secrets
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+secrets.toml
+
+# IDE & OS-Specific Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Explicitly ensure required model artifacts and datasets are preserved and tracked
+!models/*.joblib
+!models/*.json
+!data/*.csv
